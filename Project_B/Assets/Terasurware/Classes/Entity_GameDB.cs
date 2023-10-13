@@ -19,7 +19,7 @@ public class Entity_GameDB : ScriptableObject
 		
 		public int index;
 		public string characterName;
-		public float hp;
+		public int hp;
 		public int mp;
 	}
 }

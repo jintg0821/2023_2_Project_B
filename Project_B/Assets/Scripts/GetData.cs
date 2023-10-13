@@ -8,14 +8,15 @@ public class GetData : MonoBehaviour
 
     void Start()
     {
-        foreach(Entity_GameDB.Param param in entity_GameDB.sheets[0].list)
+        foreach (Entity_GameDB.Param param in entity_GameDB.sheets[0].list)
         {
-            Debug.Log(param.index + " - " + param.characterName + " - " + param.hp + " - " + param.mp);     
+            Debug.Log(param.index + " - " + param.characterName + " - " + param.hp + " - " + param.mp);
         }
     }
 
+
     void Update()
     {
-        
+
     }
 }

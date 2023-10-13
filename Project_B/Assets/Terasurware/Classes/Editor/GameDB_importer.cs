@@ -52,7 +52,7 @@ public class GameDB_importer : AssetPostprocessor {
 						
 					cell = row.GetCell(0); p.index = (int)(cell == null ? 0 : cell.NumericCellValue);
 					cell = row.GetCell(1); p.characterName = (cell == null ? "" : cell.StringCellValue);
-					cell = row.GetCell(2); p.hp = (float)(cell == null ? 0 : cell.NumericCellValue);
+					cell = row.GetCell(2); p.hp = (int)(cell == null ? 0 : cell.NumericCellValue);
 					cell = row.GetCell(3); p.mp = (int)(cell == null ? 0 : cell.NumericCellValue);
 						s.list.Add (p);
 					}
